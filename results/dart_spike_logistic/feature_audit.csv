@@ -1,0 +1,56 @@
+feature,included,reason
+market_date,False,Target/date identifier.
+market_hour,True,Numeric candidate; verify publication/vintage time at D-2.
+target_dart,False,Target/date identifier.
+da_lmp,False,Potential contemporaneous realised-price/target field: da_lmp
+rt_lmp,False,Potential contemporaneous realised-price/target field: rt_lmp
+hour,False,Hour identifier; calendar encodings are added separately.
+day_of_week,True,Numeric candidate; verify publication/vintage time at D-2.
+is_weekend,True,Numeric candidate; verify publication/vintage time at D-2.
+month,True,Numeric candidate; verify publication/vintage time at D-2.
+hour_sin,True,Numeric candidate; verify publication/vintage time at D-2.
+hour_cos,True,Numeric candidate; verify publication/vintage time at D-2.
+weekday_sin,True,Numeric candidate; verify publication/vintage time at D-2.
+weekday_cos,True,Numeric candidate; verify publication/vintage time at D-2.
+year_sin,True,Numeric candidate; verify publication/vintage time at D-2.
+year_cos,True,Numeric candidate; verify publication/vintage time at D-2.
+dart_same_hour_d2,True,Numeric candidate; verify publication/vintage time at D-2.
+last_observed_same_hour_dart,True,Numeric candidate; verify publication/vintage time at D-2.
+last_observed_same_hour_da,True,Numeric candidate; verify publication/vintage time at D-2.
+last_observed_same_hour_rt,True,Numeric candidate; verify publication/vintage time at D-2.
+dart_mean_7d,True,Numeric candidate; verify publication/vintage time at D-2.
+dart_median_7d,True,Numeric candidate; verify publication/vintage time at D-2.
+dart_std_7d,True,Numeric candidate; verify publication/vintage time at D-2.
+dart_abs_mean_7d,True,Numeric candidate; verify publication/vintage time at D-2.
+dart_spike_rate_7d,True,Numeric candidate; verify publication/vintage time at D-2.
+dart_positive_rate_7d,True,Numeric candidate; verify publication/vintage time at D-2.
+dart_negative_rate_7d,True,Numeric candidate; verify publication/vintage time at D-2.
+da_mean_7d,True,Numeric candidate; verify publication/vintage time at D-2.
+rt_mean_7d,True,Numeric candidate; verify publication/vintage time at D-2.
+dart_observations_7d,True,Numeric candidate; verify publication/vintage time at D-2.
+dart_mean_28d,True,Numeric candidate; verify publication/vintage time at D-2.
+dart_median_28d,True,Numeric candidate; verify publication/vintage time at D-2.
+dart_std_28d,True,Numeric candidate; verify publication/vintage time at D-2.
+dart_abs_mean_28d,True,Numeric candidate; verify publication/vintage time at D-2.
+dart_spike_rate_28d,True,Numeric candidate; verify publication/vintage time at D-2.
+da_mean_28d,True,Numeric candidate; verify publication/vintage time at D-2.
+rt_mean_28d,True,Numeric candidate; verify publication/vintage time at D-2.
+dart_observations_28d,True,Numeric candidate; verify publication/vintage time at D-2.
+daily_mean_dart_7d,True,Numeric candidate; verify publication/vintage time at D-2.
+daily_abs_mean_dart_7d,True,Numeric candidate; verify publication/vintage time at D-2.
+daily_max_abs_dart_7d,True,Numeric candidate; verify publication/vintage time at D-2.
+daily_spike_hours_7d,True,Numeric candidate; verify publication/vintage time at D-2.
+daily_mean_dart_28d,True,Numeric candidate; verify publication/vintage time at D-2.
+daily_abs_mean_dart_28d,True,Numeric candidate; verify publication/vintage time at D-2.
+daily_max_abs_dart_28d,True,Numeric candidate; verify publication/vintage time at D-2.
+calendar_hour_sin,True,Engineered calendar feature or historical DART lag.
+calendar_hour_cos,True,Engineered calendar feature or historical DART lag.
+calendar_dow_sin,True,Engineered calendar feature or historical DART lag.
+calendar_dow_cos,True,Engineered calendar feature or historical DART lag.
+calendar_month_sin,True,Engineered calendar feature or historical DART lag.
+calendar_month_cos,True,Engineered calendar feature or historical DART lag.
+calendar_year_sin,True,Engineered calendar feature or historical DART lag.
+calendar_year_cos,True,Engineered calendar feature or historical DART lag.
+dart_lag_2d_same_hour,True,Same-hour DART from latest market date <= D-2.
+dart_lag_7d_same_hour,True,Same-hour DART from latest market date <= D-7.
+dart_lag_14d_same_hour,True,Same-hour DART from latest market date <= D-14.

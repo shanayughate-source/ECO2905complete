@@ -1,0 +1,2 @@
+model,n,mae,rmse,r2,bias,direction_accuracy,spike_threshold_abs_dart,spike_n,spike_mae,spike_recall,spike_precision
+lightgbm,1848,20.895589069224275,49.01118999778231,0.23112362051032143,-8.907726534265478,0.9853896103896104,228.25349999999997,35,266.5927312729173,0.0,

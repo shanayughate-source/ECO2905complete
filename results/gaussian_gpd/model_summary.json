@@ -1,0 +1,38 @@
+{
+  "model": "Gaussian-GPD three-regime",
+  "validation_metrics": {
+    "MAE": 27.825583359096832,
+    "RMSE": 53.0929017951483,
+    "Bias": 5.648370777132286,
+    "Spike_precision": 0.15384615384615385,
+    "Spike_recall": 0.06722689075630252,
+    "Spike_MAE": 137.64048936347845,
+    "Observations": 1848,
+    "negative_log_likelihood": 4.897816692934699,
+    "p10_p90_coverage": 0.7813852813852814,
+    "p10_p90_mean_width": 61.899357319872884
+  },
+  "test_metrics": {
+    "MAE": 20.524000681289056,
+    "RMSE": 35.88502595246877,
+    "Bias": -0.1423911399448358,
+    "Spike_precision": 0.3939393939393939,
+    "Spike_recall": 0.08333333333333333,
+    "Spike_MAE": 78.67542127165402,
+    "Observations": 1848,
+    "negative_log_likelihood": 4.717635436325479,
+    "p10_p90_coverage": 0.8170995670995671,
+    "p10_p90_mean_width": 55.877094870009564
+  },
+  "validation_training_cutoff": "2026-05-04",
+  "test_training_cutoff": "2026-07-23",
+  "test_period_start": "2026-07-25",
+  "test_period_end": "2026-10-12",
+  "training_regime_counts_test_fit": {
+    "-1": 521,
+    "0": 9374,
+    "1": 521
+  },
+  "negative_gpd_shape_test_fit": -0.053435026167459966,
+  "positive_gpd_shape_test_fit": 0.17148097134310494
+}

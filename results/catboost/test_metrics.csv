@@ -1,0 +1,2 @@
+model,n,mae,rmse,r2,bias,direction_accuracy,spike_threshold_abs_dart,spike_n,spike_mae,spike_recall,spike_precision
+catboost,1844,18.19778225726449,37.5040246166453,0.1508035322911836,-12.80530501477747,0.9994577006507592,228.20999999999998,16,274.00476836193394,0.0,

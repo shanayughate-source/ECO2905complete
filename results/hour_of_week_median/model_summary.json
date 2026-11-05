@@ -1,0 +1,25 @@
+{
+  "model": "Hour-of-week median",
+  "validation_metrics": {
+    "MAE": 24.55641278860029,
+    "RMSE": 53.82698939403265,
+    "Bias": -4.629353805916306,
+    "Spike_precision": 0.0,
+    "Spike_recall": 0.0,
+    "Spike_MAE": 156.80223739495798,
+    "Observations": 1848
+  },
+  "test_metrics": {
+    "MAE": 20.960162337662336,
+    "RMSE": 40.92163807183601,
+    "Bias": -14.427124368686869,
+    "Spike_precision": 0.0,
+    "Spike_recall": 0.0,
+    "Spike_MAE": 104.7372248931624,
+    "Observations": 1848
+  },
+  "validation_training_cutoff": "2026-05-04",
+  "test_training_cutoff": "2026-07-23",
+  "test_period_start": "2026-07-25",
+  "test_period_end": "2026-10-12"
+}

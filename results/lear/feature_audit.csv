@@ -1,0 +1,54 @@
+feature,included,reason
+market_date,False,Target/date/hour identifier.
+market_hour,True,Numeric candidate retained; verify the data vintage was available by D-2.
+target_dart,False,Target/date/hour identifier.
+da_lmp,False,"Excluded by realised-price/target name screen: da_lmp, lmp"
+rt_lmp,False,"Excluded by realised-price/target name screen: rt_lmp, lmp"
+hour,False,Target/date/hour identifier.
+day_of_week,True,Numeric candidate retained; verify the data vintage was available by D-2.
+is_weekend,True,Numeric candidate retained; verify the data vintage was available by D-2.
+month,True,Numeric candidate retained; verify the data vintage was available by D-2.
+hour_sin,True,Numeric candidate retained; verify the data vintage was available by D-2.
+hour_cos,True,Numeric candidate retained; verify the data vintage was available by D-2.
+weekday_sin,True,Numeric candidate retained; verify the data vintage was available by D-2.
+weekday_cos,True,Numeric candidate retained; verify the data vintage was available by D-2.
+year_sin,True,Numeric candidate retained; verify the data vintage was available by D-2.
+year_cos,True,Numeric candidate retained; verify the data vintage was available by D-2.
+dart_same_hour_d2,False,Excluded by realised-price/target name screen: dart
+last_observed_same_hour_dart,False,Excluded by realised-price/target name screen: dart
+last_observed_same_hour_da,True,Numeric candidate retained; verify the data vintage was available by D-2.
+last_observed_same_hour_rt,True,Numeric candidate retained; verify the data vintage was available by D-2.
+dart_mean_7d,False,Excluded by realised-price/target name screen: dart
+dart_median_7d,False,Excluded by realised-price/target name screen: dart
+dart_std_7d,False,Excluded by realised-price/target name screen: dart
+dart_abs_mean_7d,False,Excluded by realised-price/target name screen: dart
+dart_spike_rate_7d,False,Excluded by realised-price/target name screen: dart
+dart_positive_rate_7d,False,Excluded by realised-price/target name screen: dart
+dart_negative_rate_7d,False,Excluded by realised-price/target name screen: dart
+da_mean_7d,True,Numeric candidate retained; verify the data vintage was available by D-2.
+rt_mean_7d,True,Numeric candidate retained; verify the data vintage was available by D-2.
+dart_observations_7d,False,Excluded by realised-price/target name screen: dart
+dart_mean_28d,False,Excluded by realised-price/target name screen: dart
+dart_median_28d,False,Excluded by realised-price/target name screen: dart
+dart_std_28d,False,Excluded by realised-price/target name screen: dart
+dart_abs_mean_28d,False,Excluded by realised-price/target name screen: dart
+dart_spike_rate_28d,False,Excluded by realised-price/target name screen: dart
+da_mean_28d,True,Numeric candidate retained; verify the data vintage was available by D-2.
+rt_mean_28d,True,Numeric candidate retained; verify the data vintage was available by D-2.
+dart_observations_28d,False,Excluded by realised-price/target name screen: dart
+daily_mean_dart_7d,False,Excluded by realised-price/target name screen: dart
+daily_abs_mean_dart_7d,False,Excluded by realised-price/target name screen: dart
+daily_max_abs_dart_7d,False,Excluded by realised-price/target name screen: dart
+daily_spike_hours_7d,True,Numeric candidate retained; verify the data vintage was available by D-2.
+daily_mean_dart_28d,False,Excluded by realised-price/target name screen: dart
+daily_abs_mean_dart_28d,False,Excluded by realised-price/target name screen: dart
+daily_max_abs_dart_28d,False,Excluded by realised-price/target name screen: dart
+calendar_dow_sin,True,Engineered from delivery calendar; known in advance.
+calendar_dow_cos,True,Engineered from delivery calendar; known in advance.
+calendar_month_sin,True,Engineered from delivery calendar; known in advance.
+calendar_month_cos,True,Engineered from delivery calendar; known in advance.
+calendar_year_sin,True,Engineered from delivery calendar; known in advance.
+calendar_year_cos,True,Engineered from delivery calendar; known in advance.
+dart_lag_2d_same_hour,True,Same-hour DART from latest observed market date on or before D-2; never later than cutoff.
+dart_lag_7d_same_hour,True,Same-hour DART from latest observed market date on or before D-7; never later than cutoff.
+dart_lag_14d_same_hour,True,Same-hour DART from latest observed market date on or before D-14; never later than cutoff.
